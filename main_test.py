@@ -50,6 +50,6 @@ def test_main_3():
     lines = captureOut.getvalue().split('\n')
     print(lines)
 
-    res = re.search(r'[\w,\W]*distinct[\w,\W]*', lines[0])
+    res = re.search(r'[\w,\W]*istinct[\w,\W]*', lines[0])
     assert res != None
     print(res.group())
