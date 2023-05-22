@@ -7,6 +7,7 @@ def main():
     Code Your Program here
     ########################################
     """
+    duplication = 0
 
     ########################################
     # Do not delete the return statement
